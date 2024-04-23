@@ -84,6 +84,7 @@ const createWindow = async () => {
         minHeight: 450,
         autoHideMenuBar: true,
         frame: false,
+        icon: path.join(__dirname, "renderer", 'images', "focus2.ico")
     })
     if (isProduction) {
         window.webContents.openDevTools();
