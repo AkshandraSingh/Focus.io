@@ -6,12 +6,12 @@ const isProduction = process.env.PRODUCTION !== "development"
 
 const createWindow = async () => {
     const window = new BrowserWindow({
-        width: 700,
-        maxWidth: 900,
-        minWidth: 450,
-        height: 500,
-        maxHeight: 700,
-        minHeight: 250,
+        width: 550,
+        maxWidth: 550,
+        minWidth: 550,
+        height: 450,
+        maxHeight: 450,
+        minHeight: 450,
     })
     if (isProduction) {
         window.webContents.openDevTools();

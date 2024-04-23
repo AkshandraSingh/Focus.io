@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#logoHeading {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  margin: 18px;
+}
+
+#mainHeading {
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+}
+
+#time {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  margin: 26px;
+  color: rgb(253 174 25);
+  text-align: center;
+}
+
+.baseButton {
+  font-family: "Archivo Black", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 158px;
+  height: 43px;
+  margin: 16px;
+  border-radius: 22px;
+  background-color: grey;
+  color: white;
+}
+
+.baseButton:hover {
+  background-color: rgb(121, 113, 113);
+  color: white;
+  cursor: pointer;
+}
+
+#credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  margin: 7px;
+}
