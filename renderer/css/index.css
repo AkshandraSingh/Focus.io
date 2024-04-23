@@ -8,6 +8,10 @@ body {
   color: white;
 }
 
+.draggable-area {
+  -webkit-app-region: drag; /* Make the area draggable */
+}
+
 #logoHeading {
   font-family: "Fredoka", sans-serif;
   font-weight: bold;
