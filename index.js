@@ -53,21 +53,6 @@ const menuItems = [
                 accelerator: "CmdOrCtrl+N",
             },
             {
-                label: "About Window",
-                click: async () => {
-                    const newWindow = new BrowserWindow({
-                        width: 500,
-                        maxWidth: 500,
-                        minWidth: 500,
-                        height: 400,
-                        maxHeight: 400,
-                        minHeight: 400,
-                    })
-                    await newWindow.loadURL("https://akshandra.onrender.com")
-                },
-                accelerator: "CmdOrCtrl+N+A",
-            },
-            {
                 label: "Github Window",
                 click: async () => {
                     const newWindow = new BrowserWindow({
@@ -99,7 +84,6 @@ const createWindow = async () => {
         minHeight: 450,
         autoHideMenuBar: true,
         frame: false,
-        // titleBarStyle: 'hidden',
     })
     if (isProduction) {
         window.webContents.openDevTools();
