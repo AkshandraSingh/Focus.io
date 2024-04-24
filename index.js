@@ -2,8 +2,6 @@ require('dotenv').config()
 const { app, BrowserWindow, Menu, shell } = require('electron')
 const path = require('path')
 
-const isProduction = process.env.PRODUCTION !== "development"
-
 const menuItems = [
     {
         label: "Options",
@@ -84,11 +82,8 @@ const createWindow = async () => {
         minHeight: 450,
         autoHideMenuBar: true,
         frame: false,
-        icon: path.join(__dirname, "renderer", 'images', "focus2.ico")
+        icon: path.join(__dirname, "renderer", 'images', "focus2.ico"),
     })
-    if (isProduction) {
-        window.webContents.openDevTools();
-    }
     await window.loadFile(path.join(__dirname, "renderer", 'html', "index.html"))
 }
 
