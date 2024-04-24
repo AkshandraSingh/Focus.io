@@ -14,7 +14,7 @@ Welcome to Focus.io – your free startup for boosting productivity with focused
 
 To use Focus.io, simply download the application from our official website:
 
-[Download Focus.io](https://focus.io)
+[Download Focus.io](https://focus-io.onrender.com)
 
 ## Menu Shortcuts
 
